@@ -186,7 +186,7 @@ public class EventMangment {
 		else if(action==7) {
 			list.display();
 			System.out.println("Who do you want to view: ");
-			System.out.println("(ex. 1 is to view the first employee's information");
+			System.out.println("(ex. 1 is to view the first employee's information");//7
 			int vi=x.nextInt();
 			list.searchWithindexes(vi).display();
 			System.out.println();
